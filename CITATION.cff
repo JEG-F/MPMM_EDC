@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this code or these data, please cite the article given under preferred-citation."
+title: "MPMM_EDC: code and data for 'Consistent Identification of Partition Markov Structures in Exchange Rate Dynamics'"
+type: software
+version: "1.0.0"
+license: GPL-3.0-or-later
+repository-code: "https://github.com/JEG-F/MPMM_EDC"
+keywords:
+  - Markov chain
+  - partition Markov model
+  - Efficient Determination Criterion
+  - relative entropy
+  - exchange rates
+authors:
+  - family-names: Santos
+    given-names: Diego S.
+    affiliation: "University of Campinas (UNICAMP)"
+    orcid: "https://orcid.org/0009-0003-3560-4322"
+  - family-names: García
+    given-names: Jesús E.
+    affiliation: "University of Campinas (UNICAMP)"
+    orcid: "https://orcid.org/0000-0002-6952-1635"
+  - family-names: González-López
+    given-names: V. A.
+    affiliation: "University of Campinas (UNICAMP)"
+    orcid: "https://orcid.org/0000-0002-3514-4130"
+preferred-citation:
+  type: article
+  title: "Consistent Identification of Partition Markov Structures in Exchange Rate Dynamics"
+  journal: "Applied Stochastic Models in Business and Industry"
+  year: 2026
+  status: submitted
+  authors:
+    - family-names: Santos
+      given-names: Diego S.
+      orcid: "https://orcid.org/0009-0003-3560-4322"
+    - family-names: García
+      given-names: Jesús E.
+      orcid: "https://orcid.org/0000-0002-6952-1635"
+    - family-names: González-López
+      given-names: V. A.
+      orcid: "https://orcid.org/0000-0002-3514-4130"

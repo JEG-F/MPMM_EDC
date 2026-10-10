@@ -1,0 +1,157 @@
+Binary series written to: data/binary_series.csv
+  Rows (trading days): 5182 
+  Columns (currencies): 6 
+
+=== EDC Application: Exchange Rate Data ===
+
+Currencies (p):   6 
+Sample size (N):  5182 
+Alphabet:          0, 1 
+Markov order (o):  5 
+States |A^o|:      32 
+Active (j,s):      192 
+
+====================================================================== 
+  Penalty: BIC: ln(n) 
+====================================================================== 
+
+  Parts: 6  | Merges: 186 
+
+  Part 1 ( 37 elements )
+    P(a|L): 0=0.4329  1=0.5671 
+    Members: ( BRL , 00000 ) ( GBP , 01001 ) ( MXN , 11000 ) ( BRL , 11000 ) ( BRL , 01100 ) ( BRL , 00110 ) ( EUR , 00000 ) ( CNY , 01100 ) ( CNY , 01000 ) ( BRL , 11100 ) ( EUR , 01011 ) ( BRL , 10110 ) ( CNY , 00000 ) ( GBP , 10101 ) ( EUR , 10110 ) ( EUR , 10111 ) ( MXN , 00001 ) ( CAD , 11110 ) ( EUR , 00001 ) ( CAD , 01100 ) ( CAD , 10100 ) ( MXN , 11110 ) ( MXN , 10111 ) ( CNY , 10010 ) ( CNY , 00110 ) ( GBP , 00110 ) ( MXN , 11101 ) ( GBP , 01101 ) ( EUR , 01010 ) ( CNY , 00011 ) ( CNY , 11010 ) ( GBP , 10000 ) ( EUR , 11010 ) ( MXN , 11100 ) ( CNY , 11101 ) ( MXN , 00010 ) ( CNY , 01101 )
+  Part 2 ( 54 elements )
+    P(a|L): 0=0.4721  1=0.5279 
+    Members: ( BRL , 10000 ) ( BRL , 10100 ) ( BRL , 10111 ) ( CAD , 01010 ) ( MXN , 01010 ) ( EUR , 10001 ) ( BRL , 00010 ) ( MXN , 00100 ) ( BRL , 01110 ) ( GBP , 10010 ) ( EUR , 10011 ) ( CAD , 11100 ) ( MXN , 10001 ) ( CAD , 10000 ) ( MXN , 10100 ) ( CAD , 11000 ) ( CAD , 10011 ) ( CNY , 10011 ) ( BRL , 11010 ) ( BRL , 01001 ) ( GBP , 01110 ) ( EUR , 00010 ) ( GBP , 11011 ) ( CAD , 00100 ) ( MXN , 00110 ) ( BRL , 00101 ) ( EUR , 00100 ) ( GBP , 00001 ) ( EUR , 10100 ) ( CAD , 01001 ) ( MXN , 11111 ) ( CAD , 01011 ) ( CNY , 00111 ) ( CAD , 11011 ) ( GBP , 10011 ) ( BRL , 01010 ) ( EUR , 11101 ) ( GBP , 11000 ) ( EUR , 11100 ) ( MXN , 01100 ) ( CNY , 10000 ) ( CNY , 00001 ) ( EUR , 01000 ) ( CAD , 01000 ) ( CAD , 10101 ) ( CNY , 00100 ) ( MXN , 11010 ) ( CNY , 10110 ) ( MXN , 10011 ) ( MXN , 00111 ) ( CNY , 10101 ) ( EUR , 00101 ) ( GBP , 10111 ) ( MXN , 10110 )
+  Part 3 ( 47 elements )
+    P(a|L): 0=0.5026  1=0.4974 
+    Members: ( BRL , 01000 ) ( GBP , 00010 ) ( GBP , 01010 ) ( MXN , 00011 ) ( BRL , 00011 ) ( MXN , 01111 ) ( GBP , 00111 ) ( BRL , 11110 ) ( EUR , 10000 ) ( CAD , 00110 ) ( GBP , 10110 ) ( CAD , 01101 ) ( CNY , 10001 ) ( BRL , 01011 ) ( GBP , 10100 ) ( GBP , 01111 ) ( CNY , 01110 ) ( MXN , 00000 ) ( BRL , 10001 ) ( BRL , 01111 ) ( CAD , 00001 ) ( BRL , 10101 ) ( EUR , 10010 ) ( EUR , 11110 ) ( MXN , 11011 ) ( BRL , 10010 ) ( EUR , 10101 ) ( EUR , 01100 ) ( EUR , 11011 ) ( BRL , 00111 ) ( MXN , 01000 ) ( CAD , 11010 ) ( MXN , 01001 ) ( CNY , 10111 ) ( BRL , 10011 ) ( GBP , 10001 ) ( MXN , 10010 ) ( GBP , 11101 ) ( CAD , 00000 ) ( CAD , 01110 ) ( CNY , 01111 ) ( CAD , 00011 ) ( GBP , 00011 ) ( GBP , 01011 ) ( CAD , 10001 ) ( GBP , 00000 ) ( MXN , 00101 )
+  Part 4 ( 39 elements )
+    P(a|L): 0=0.5397  1=0.4603 
+    Members: ( BRL , 00100 ) ( CNY , 01011 ) ( CAD , 10110 ) ( CAD , 11001 ) ( BRL , 00001 ) ( GBP , 11001 ) ( BRL , 01101 ) ( MXN , 01101 ) ( EUR , 00110 ) ( EUR , 01110 ) ( GBP , 01100 ) ( CAD , 00101 ) ( CNY , 00101 ) ( MXN , 10101 ) ( BRL , 11001 ) ( BRL , 11101 ) ( GBP , 11111 ) ( EUR , 00011 ) ( EUR , 00111 ) ( EUR , 11000 ) ( EUR , 11111 ) ( CNY , 00010 ) ( GBP , 00100 ) ( CNY , 11011 ) ( GBP , 11010 ) ( BRL , 11111 ) ( GBP , 00101 ) ( MXN , 11001 ) ( CAD , 10010 ) ( MXN , 01011 ) ( MXN , 01110 ) ( CAD , 00010 ) ( CAD , 11111 ) ( GBP , 11100 ) ( GBP , 01000 ) ( CNY , 01010 ) ( CAD , 11101 ) ( CNY , 01001 ) ( CAD , 00111 )
+  Part 5 ( 8 elements )
+    P(a|L): 0=0.5919  1=0.4081 
+    Members: ( BRL , 11011 ) ( CAD , 01111 ) ( EUR , 01001 ) ( EUR , 01101 ) ( CAD , 10111 ) ( EUR , 11001 ) ( EUR , 01111 ) ( GBP , 11110 )
+  Part 6 ( 7 elements )
+    P(a|L): 0=0.3678  1=0.6322 
+    Members: ( MXN , 10000 ) ( CNY , 11001 ) ( CNY , 11000 ) ( CNY , 11100 ) ( CNY , 11111 ) ( CNY , 10100 ) ( CNY , 11110 )
+
+====================================================================== 
+  Penalty: EDC: (ln(ln(n)))^2 
+====================================================================== 
+
+  Parts: 6  | Merges: 186 
+
+  Part 1 ( 37 elements )
+    P(a|L): 0=0.4329  1=0.5671 
+    Members: ( BRL , 00000 ) ( GBP , 01001 ) ( MXN , 11000 ) ( BRL , 11000 ) ( BRL , 01100 ) ( BRL , 00110 ) ( EUR , 00000 ) ( CNY , 01100 ) ( CNY , 01000 ) ( BRL , 11100 ) ( EUR , 01011 ) ( BRL , 10110 ) ( CNY , 00000 ) ( GBP , 10101 ) ( EUR , 10110 ) ( EUR , 10111 ) ( MXN , 00001 ) ( CAD , 11110 ) ( EUR , 00001 ) ( CAD , 01100 ) ( CAD , 10100 ) ( MXN , 11110 ) ( MXN , 10111 ) ( CNY , 10010 ) ( CNY , 00110 ) ( GBP , 00110 ) ( MXN , 11101 ) ( GBP , 01101 ) ( EUR , 01010 ) ( CNY , 00011 ) ( CNY , 11010 ) ( GBP , 10000 ) ( EUR , 11010 ) ( MXN , 11100 ) ( CNY , 11101 ) ( MXN , 00010 ) ( CNY , 01101 )
+  Part 2 ( 54 elements )
+    P(a|L): 0=0.4721  1=0.5279 
+    Members: ( BRL , 10000 ) ( BRL , 10100 ) ( BRL , 10111 ) ( CAD , 01010 ) ( MXN , 01010 ) ( EUR , 10001 ) ( BRL , 00010 ) ( MXN , 00100 ) ( BRL , 01110 ) ( GBP , 10010 ) ( EUR , 10011 ) ( CAD , 11100 ) ( MXN , 10001 ) ( CAD , 10000 ) ( MXN , 10100 ) ( CAD , 11000 ) ( CAD , 10011 ) ( CNY , 10011 ) ( BRL , 11010 ) ( BRL , 01001 ) ( GBP , 01110 ) ( EUR , 00010 ) ( GBP , 11011 ) ( CAD , 00100 ) ( MXN , 00110 ) ( BRL , 00101 ) ( EUR , 00100 ) ( GBP , 00001 ) ( EUR , 10100 ) ( CAD , 01001 ) ( MXN , 11111 ) ( CAD , 01011 ) ( CNY , 00111 ) ( CAD , 11011 ) ( GBP , 10011 ) ( BRL , 01010 ) ( EUR , 11101 ) ( GBP , 11000 ) ( EUR , 11100 ) ( MXN , 01100 ) ( CNY , 10000 ) ( CNY , 00001 ) ( EUR , 01000 ) ( CAD , 01000 ) ( CAD , 10101 ) ( CNY , 00100 ) ( MXN , 11010 ) ( CNY , 10110 ) ( MXN , 10011 ) ( MXN , 00111 ) ( CNY , 10101 ) ( EUR , 00101 ) ( GBP , 10111 ) ( MXN , 10110 )
+  Part 3 ( 47 elements )
+    P(a|L): 0=0.5026  1=0.4974 
+    Members: ( BRL , 01000 ) ( GBP , 00010 ) ( GBP , 01010 ) ( MXN , 00011 ) ( BRL , 00011 ) ( MXN , 01111 ) ( GBP , 00111 ) ( BRL , 11110 ) ( EUR , 10000 ) ( CAD , 00110 ) ( GBP , 10110 ) ( CAD , 01101 ) ( CNY , 10001 ) ( BRL , 01011 ) ( GBP , 10100 ) ( GBP , 01111 ) ( CNY , 01110 ) ( MXN , 00000 ) ( BRL , 10001 ) ( BRL , 01111 ) ( CAD , 00001 ) ( BRL , 10101 ) ( EUR , 10010 ) ( EUR , 11110 ) ( MXN , 11011 ) ( BRL , 10010 ) ( EUR , 10101 ) ( EUR , 01100 ) ( EUR , 11011 ) ( BRL , 00111 ) ( MXN , 01000 ) ( CAD , 11010 ) ( MXN , 01001 ) ( CNY , 10111 ) ( BRL , 10011 ) ( GBP , 10001 ) ( MXN , 10010 ) ( GBP , 11101 ) ( CAD , 00000 ) ( CAD , 01110 ) ( CNY , 01111 ) ( CAD , 00011 ) ( GBP , 00011 ) ( GBP , 01011 ) ( CAD , 10001 ) ( GBP , 00000 ) ( MXN , 00101 )
+  Part 4 ( 39 elements )
+    P(a|L): 0=0.5397  1=0.4603 
+    Members: ( BRL , 00100 ) ( CNY , 01011 ) ( CAD , 10110 ) ( CAD , 11001 ) ( BRL , 00001 ) ( GBP , 11001 ) ( BRL , 01101 ) ( MXN , 01101 ) ( EUR , 00110 ) ( EUR , 01110 ) ( GBP , 01100 ) ( CAD , 00101 ) ( CNY , 00101 ) ( MXN , 10101 ) ( BRL , 11001 ) ( BRL , 11101 ) ( GBP , 11111 ) ( EUR , 00011 ) ( EUR , 00111 ) ( EUR , 11000 ) ( EUR , 11111 ) ( CNY , 00010 ) ( GBP , 00100 ) ( CNY , 11011 ) ( GBP , 11010 ) ( BRL , 11111 ) ( GBP , 00101 ) ( MXN , 11001 ) ( CAD , 10010 ) ( MXN , 01011 ) ( MXN , 01110 ) ( CAD , 00010 ) ( CAD , 11111 ) ( GBP , 11100 ) ( GBP , 01000 ) ( CNY , 01010 ) ( CAD , 11101 ) ( CNY , 01001 ) ( CAD , 00111 )
+  Part 5 ( 8 elements )
+    P(a|L): 0=0.5919  1=0.4081 
+    Members: ( BRL , 11011 ) ( CAD , 01111 ) ( EUR , 01001 ) ( EUR , 01101 ) ( CAD , 10111 ) ( EUR , 11001 ) ( EUR , 01111 ) ( GBP , 11110 )
+  Part 6 ( 7 elements )
+    P(a|L): 0=0.3678  1=0.6322 
+    Members: ( MXN , 10000 ) ( CNY , 11001 ) ( CNY , 11000 ) ( CNY , 11100 ) ( CNY , 11111 ) ( CNY , 10100 ) ( CNY , 11110 )
+
+====================================================================== 
+  Penalty: EDC: ln(ln(n)) 
+====================================================================== 
+
+  Parts: 9  | Merges: 183 
+
+  Part 1 ( 9 elements )
+    P(a|L): 0=0.4085  1=0.5915 
+    Members: ( BRL , 00000 ) ( GBP , 01001 ) ( MXN , 11000 ) ( BRL , 11000 ) ( BRL , 01100 ) ( BRL , 00110 ) ( EUR , 00000 ) ( CNY , 01100 ) ( CNY , 01000 )
+  Part 2 ( 35 elements )
+    P(a|L): 0=0.4787  1=0.5213 
+    Members: ( BRL , 10000 ) ( BRL , 10100 ) ( BRL , 10111 ) ( CAD , 01010 ) ( MXN , 01010 ) ( EUR , 10001 ) ( BRL , 00010 ) ( MXN , 00100 ) ( BRL , 01110 ) ( GBP , 10010 ) ( EUR , 10011 ) ( CAD , 11100 ) ( MXN , 10001 ) ( CAD , 10000 ) ( MXN , 10100 ) ( CAD , 11000 ) ( CAD , 10011 ) ( CNY , 10011 ) ( BRL , 11010 ) ( BRL , 01001 ) ( GBP , 01110 ) ( EUR , 00010 ) ( GBP , 11011 ) ( CAD , 00100 ) ( MXN , 00110 ) ( BRL , 00101 ) ( EUR , 00100 ) ( GBP , 00001 ) ( EUR , 10100 ) ( CAD , 01001 ) ( MXN , 11111 ) ( CAD , 01011 ) ( CNY , 00111 ) ( CAD , 11011 ) ( GBP , 10011 )
+  Part 3 ( 47 elements )
+    P(a|L): 0=0.5026  1=0.4974 
+    Members: ( BRL , 01000 ) ( GBP , 00010 ) ( GBP , 01010 ) ( MXN , 00011 ) ( BRL , 00011 ) ( MXN , 01111 ) ( GBP , 00111 ) ( BRL , 11110 ) ( EUR , 10000 ) ( CAD , 00110 ) ( GBP , 10110 ) ( CAD , 01101 ) ( CNY , 10001 ) ( BRL , 01011 ) ( GBP , 10100 ) ( GBP , 01111 ) ( CNY , 01110 ) ( MXN , 00000 ) ( BRL , 10001 ) ( BRL , 01111 ) ( CAD , 00001 ) ( BRL , 10101 ) ( EUR , 10010 ) ( EUR , 11110 ) ( MXN , 11011 ) ( BRL , 10010 ) ( EUR , 10101 ) ( EUR , 01100 ) ( EUR , 11011 ) ( BRL , 00111 ) ( MXN , 01000 ) ( CAD , 11010 ) ( MXN , 01001 ) ( CNY , 10111 ) ( BRL , 10011 ) ( GBP , 10001 ) ( MXN , 10010 ) ( GBP , 11101 ) ( CAD , 00000 ) ( CAD , 01110 ) ( CNY , 01111 ) ( CAD , 00011 ) ( GBP , 00011 ) ( GBP , 01011 ) ( CAD , 10001 ) ( GBP , 00000 ) ( MXN , 00101 )
+  Part 4 ( 14 elements )
+    P(a|L): 0=0.5552  1=0.4448 
+    Members: ( BRL , 00100 ) ( CNY , 01011 ) ( CAD , 10110 ) ( CAD , 11001 ) ( BRL , 00001 ) ( GBP , 11001 ) ( BRL , 01101 ) ( MXN , 01101 ) ( EUR , 00110 ) ( EUR , 01110 ) ( GBP , 01100 ) ( CAD , 00101 ) ( CNY , 00101 ) ( MXN , 10101 )
+  Part 5 ( 28 elements )
+    P(a|L): 0=0.4397  1=0.5603 
+    Members: ( BRL , 11100 ) ( EUR , 01011 ) ( BRL , 10110 ) ( CNY , 00000 ) ( GBP , 10101 ) ( EUR , 10110 ) ( EUR , 10111 ) ( MXN , 00001 ) ( CAD , 11110 ) ( EUR , 00001 ) ( CAD , 01100 ) ( CAD , 10100 ) ( MXN , 11110 ) ( MXN , 10111 ) ( CNY , 10010 ) ( CNY , 00110 ) ( GBP , 00110 ) ( MXN , 11101 ) ( GBP , 01101 ) ( EUR , 01010 ) ( CNY , 00011 ) ( CNY , 11010 ) ( GBP , 10000 ) ( EUR , 11010 ) ( MXN , 11100 ) ( CNY , 11101 ) ( MXN , 00010 ) ( CNY , 01101 )
+  Part 6 ( 19 elements )
+    P(a|L): 0=0.4598  1=0.5402 
+    Members: ( BRL , 01010 ) ( EUR , 11101 ) ( GBP , 11000 ) ( EUR , 11100 ) ( MXN , 01100 ) ( CNY , 10000 ) ( CNY , 00001 ) ( EUR , 01000 ) ( CAD , 01000 ) ( CAD , 10101 ) ( CNY , 00100 ) ( MXN , 11010 ) ( CNY , 10110 ) ( MXN , 10011 ) ( MXN , 00111 ) ( CNY , 10101 ) ( EUR , 00101 ) ( GBP , 10111 ) ( MXN , 10110 )
+  Part 7 ( 25 elements )
+    P(a|L): 0=0.5308  1=0.4692 
+    Members: ( BRL , 11001 ) ( BRL , 11101 ) ( GBP , 11111 ) ( EUR , 00011 ) ( EUR , 00111 ) ( EUR , 11000 ) ( EUR , 11111 ) ( CNY , 00010 ) ( GBP , 00100 ) ( CNY , 11011 ) ( GBP , 11010 ) ( BRL , 11111 ) ( GBP , 00101 ) ( MXN , 11001 ) ( CAD , 10010 ) ( MXN , 01011 ) ( MXN , 01110 ) ( CAD , 00010 ) ( CAD , 11111 ) ( GBP , 11100 ) ( GBP , 01000 ) ( CNY , 01010 ) ( CAD , 11101 ) ( CNY , 01001 ) ( CAD , 00111 )
+  Part 8 ( 8 elements )
+    P(a|L): 0=0.5919  1=0.4081 
+    Members: ( BRL , 11011 ) ( CAD , 01111 ) ( EUR , 01001 ) ( EUR , 01101 ) ( CAD , 10111 ) ( EUR , 11001 ) ( EUR , 01111 ) ( GBP , 11110 )
+  Part 9 ( 7 elements )
+    P(a|L): 0=0.3678  1=0.6322 
+    Members: ( MXN , 10000 ) ( CNY , 11001 ) ( CNY , 11000 ) ( CNY , 11100 ) ( CNY , 11111 ) ( CNY , 10100 ) ( CNY , 11110 )
+
+
+============================================================ 
+  Summary (Table 10)
+============================================================ 
+  w(n)                        LML          EDC  Parts
+------------------------------------------------------------ 
+  ln(n)                 -21380.92    -21411.95      6
+  (ln(ln(n)))^2         -21380.92    -21397.29      6
+  ln(ln(n))             -21375.79    -21386.31      9
+------------------------------------------------------------ 
+
+Partitions for w1 = ln(n) and w2 = [ln(ln(n))]^2 identical: TRUE 
+
+States per currency in each part, w1 = ln(n) (Table 13):
+      BRL EUR CAD GBP MXN CNY total
+L1      6   7   3   5   7   9    37
+L2      9   9  11   7  11   7    54
+L3     10   6   8  11   8   4    47
+L4      6   6   8   8   5   6    39
+L5      1   4   2   1   0   0     8
+L6      0   0   0   0   1   6     7
+Total  32  32  32  32  32  32   192
+
+Decomposition of the w1 parts into the w3 parts (Table 16):
+  L6 ( 7, P0=0.3678)         -> L9 ( 7, P0=0.3678)
+  L1 (37, P0=0.4329)         -> L1 ( 9, P0=0.4085)
+                             -> L5 (28, P0=0.4397)
+  L2 (54, P0=0.4721)         -> L6 (19, P0=0.4598)
+                             -> L2 (35, P0=0.4787)
+  L3 (47, P0=0.5026)         -> L3 (47, P0=0.5026)
+  L4 (39, P0=0.5397)         -> L7 (25, P0=0.5308)
+                             -> L4 (14, P0=0.5552)
+  L5 ( 8, P0=0.5919)         -> L8 ( 8, P0=0.5919)
+
+Dendrograms saved to: results/application/figures/
+
+=== Session information ===
+R version 4.5.2 (2025-10-31)
+Platform: aarch64-apple-darwin20
+Running under: macOS Tahoe 26.6.2
+
+Matrix products: default
+BLAS:   /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib 
+LAPACK: /Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libRlapack.dylib;  LAPACK version 3.12.1
+
+locale:
+[1] pt_BR.UTF-8/pt_BR.UTF-8/pt_BR.UTF-8/C/pt_BR.UTF-8/pt_BR.UTF-8
+
+time zone: America/Sao_Paulo
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] ape_5.8-1
+
+loaded via a namespace (and not attached):
+[1] compiler_4.5.2 parallel_4.5.2 Rcpp_1.1.0     nlme_3.1-168   grid_4.5.2    
+[6] digest_0.6.39  lattice_0.22-7
